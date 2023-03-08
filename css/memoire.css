@@ -1,0 +1,57 @@
+.card{
+    height: 200px;
+    width: 130px;   
+}
+
+.board{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.game{
+display: flex;
+justify-content: center;
+}
+
+h1 {
+    color: rgb(210, 234, 255);
+    font-style: italic;
+    font-family: fantasy monospace;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/1300535.jpg');
+}
+
+form {
+    position: fixed;
+font-style: italic;
+font-weight: bolder;
+font-size: x-large;
+font-family: fantasy monospace;
+color: #c31792;
+}
+
+.overlay-text {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: fantasy monospace;
+    font-size: 10em;
+    font-style: italic;
+    font-weight: bolder;
+    color: #65D790;
+    background-color: rgba(0, 0, 0, 0.405);
+}
